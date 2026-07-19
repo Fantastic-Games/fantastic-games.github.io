@@ -11,3 +11,8 @@ theme = "mana"
   # Hero section title (optional - defaults to site.Title)
   heroTitleLine1 = "Fantastic Games"  # First line of hero title
   heroTitleLine2 = "Your Tagline"    # Second line of hero title (optional)
+
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
