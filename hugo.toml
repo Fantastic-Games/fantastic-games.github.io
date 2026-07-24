@@ -19,13 +19,13 @@ theme = "mana"
   weight = 30
 
 [params]
-  description = "SOME DESCRIPTION IDK"
+  description = "We make games we want to play"
   favicon = '/favicon/FantasticLogoTransparent.webp'
   footerText = "Built with love in Hugo and Mana theme"  # Optional
   
   # Hero section title (optional - defaults to site.Title)
   heroTitleLine1 = "Fantastic Games"  # First line of hero title
-  heroTitleLine2 = "We make games we want to play"    # Second line of hero title (optional)
+  # heroTitleLine2 = "Est. 2023"    # Second line of hero title (optional)
 
 
 [caches]
