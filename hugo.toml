@@ -3,6 +3,21 @@ languageCode = 'en-us'
 title = 'Fantastic Games'
 theme = "mana"
 
+[[menus.main]]
+  name = 'Home'
+  pageRef = '/'
+  weight = 10
+
+[[menus.main]]
+  name = 'About'
+  url = '/about/'
+  weight = 20
+
+[[menus.main]]
+  name = 'Devlogs'
+  pageRef = '/posts'
+  weight = 30
+
 [params]
   description = "SOME DESCRIPTION IDK"
   favicon = '/favicon/FantasticLogoTransparent.webp'
