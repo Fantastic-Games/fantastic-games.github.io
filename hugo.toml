@@ -3,20 +3,24 @@ languageCode = 'en-us'
 title = 'Fantastic Games'
 theme = "mana"
 
-[[menus.main]]
-  name = 'Home'
-  pageRef = '/'
-  weight = 10
+[menus]
+  [[menus.main]]
+    identifier = "home"
+    name = "Home"
+    url = ""
+    weight = 10
 
-[[menus.main]]
-  name = 'About'
-  url = '/about/'
-  weight = 20
+  [[menus.main]]
+    identifier = "about"
+    name = "About"
+    url = "about"
+    weight = 20
 
-[[menus.main]]
-  name = 'Devlogs'
-  pageRef = '/posts'
-  weight = 30
+  [[menus.main]]
+    identifier = "devlogs"
+    name = "Devlogs"
+    url = "posts"
+    weight = 30
 
 [params]
   description = "We make games we want to play"
