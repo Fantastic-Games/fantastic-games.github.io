@@ -1,6 +1,6 @@
 ---
 title: "AHHHHHHHHHHHH"
-description: "testing!"
+description: "Development Logs"
 layout: "posts"
 ---
 

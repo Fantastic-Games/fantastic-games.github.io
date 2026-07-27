@@ -22,6 +22,12 @@ theme = "mana"
     url = "posts"
     weight = 30
 
+  [[menus.main]]
+    identifier = "contact"
+    name = "Contact Us"
+    url = "contact"
+    weight = 40 
+
 [params]
   description = "We make games we want to play"
   favicon = '/favicon/FantasticLogoTransparent.webp'

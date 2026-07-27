@@ -44,5 +44,8 @@ My bond with gaming started with my dad introducing me to games such as Bad Comp
 
 # K.S. Simms
 ## Combat Lead
-Description: Hi, I’m K.S Simms. I have been part of Fantastic games since 2023 and am the combat lead. I’m responsible for the approval and implementation of the combat features in our games.
+Hi, I’m K.S Simms. I have been part of Fantastic games since 2023 and am the combat lead. I’m responsible for the approval and implementation of the combat features in our games.
 
+# Miranda Pike
+## Web Dev
+I can't think of anything
