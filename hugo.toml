@@ -37,6 +37,11 @@ theme = "mana"
   heroTitleLine1 = "Fantastic Games"  # First line of hero title
   # heroTitleLine2 = "Est. 2023"    # Second line of hero title (optional)
 
+  [params.social]
+    github = "https://github.com/Fantastic-Games/Fantastic-Games.github.io"
+    linkedin = "https://www.linkedin.com/company/fantastic-games-studios/"
+    # twitter = "yourusername"
+    # email = "your.email@example.com"
 
 [caches]
   [caches.images]
