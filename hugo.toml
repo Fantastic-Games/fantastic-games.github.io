@@ -1,4 +1,4 @@
-baseURL = 'http://fantastic-games.dev'
+baseURL = 'http://fantastic-games.dev/'
 languageCode = 'en-us'
 title = 'Fantastic Games'
 theme = "mana"
