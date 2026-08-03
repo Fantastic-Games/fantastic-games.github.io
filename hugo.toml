@@ -1,4 +1,4 @@
-baseURL = 'http://fantastic-games.dev/'
+baseURL = 'http://www.fantastic-games.github.io'
 languageCode = 'en-us'
 title = 'Fantastic Games'
 theme = "mana"
