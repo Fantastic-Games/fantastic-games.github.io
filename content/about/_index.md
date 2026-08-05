@@ -46,6 +46,17 @@ My bond with gaming started with my dad introducing me to games such as Bad Comp
 ## Combat Lead
 Hi, I’m K.S Simms. I have been part of Fantastic games since 2023 and am the combat lead. I’m responsible for the approval and implementation of the combat features in our games.
 
-# Miranda Pike
+# Miranda Peak
 ## Web Dev
-I can't think of anything
+Hello fellow humans! *waves*  
+
+I contribute by helping with the website. You’re on it now! I hope it is to your liking. 
+
+A little about me: 
+I exist. But I am also a programmer, artist, musician etc etc *cries in finite time and resources*. If I’m not constantly moving my hands, then what is life?
+
+Fun fact: I cope with chronic pain and general existence by programming for hours on end. You will find my mug constantly sitting in the microwave after heating it up for the nth time. Caffeine? What’s that?
+
+In my free time, you’ll find me reading philosophy and literature in parks, headbanging to black metal and grindcore while screaming behind a wheel at LA traffic, and playing (preferably violent) video games. 
+
+Oh, and I arrange video game music for cello.  It is the only way to cure the obsessive earworm. 
