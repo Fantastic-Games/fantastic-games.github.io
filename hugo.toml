@@ -37,7 +37,7 @@ theme = "mana"
   heroTitleLine1 = "Fantastic Games"  # First line of hero title
   # heroTitleLine2 = "Est. 2023"    # Second line of hero title (optional)
 
-  heroImg = '/favicon/FantasticLogoTransparent.webp'
+  heroImg = '/FantasticLogoTransparent.webp'
 
   [params.social]
     github = "https://github.com/Fantastic-Games/Fantastic-Games.github.io"
