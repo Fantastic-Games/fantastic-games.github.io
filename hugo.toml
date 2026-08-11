@@ -30,7 +30,6 @@ theme = "mana"
 
 [params]
   description = "We make games we want to play"
-  # favicon = # TODO: create .ico of logo
   footerText = "Built with love in Hugo and Mana theme"  # Optional
 
   # Hero section title (optional - defaults to site.Title)
@@ -39,11 +38,15 @@ theme = "mana"
 
   heroImg = '/FantasticLogoTransparent.webp'
 
+  [params.favicons]
+    png = '/favicon/favicon.ico'
+
   [params.social]
     github = "https://github.com/Fantastic-Games/Fantastic-Games.github.io"
     linkedin = "https://www.linkedin.com/company/fantastic-games-studios/"
     # twitter = "yourusername"
     # email = "your.email@example.com"
+  
 
 [caches]
   [caches.images]
