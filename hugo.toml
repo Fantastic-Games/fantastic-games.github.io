@@ -30,12 +30,14 @@ theme = "mana"
 
 [params]
   description = "We make games we want to play"
-  favicon = '/favicon/FantasticLogoTransparent.webp'
+  # favicon = # TODO: create .ico of logo
   footerText = "Built with love in Hugo and Mana theme"  # Optional
-  
+
   # Hero section title (optional - defaults to site.Title)
   heroTitleLine1 = "Fantastic Games"  # First line of hero title
   # heroTitleLine2 = "Est. 2023"    # Second line of hero title (optional)
+
+  heroImg = '/favicon/FantasticLogoTransparent.webp'
 
   [params.social]
     github = "https://github.com/Fantastic-Games/Fantastic-Games.github.io"
