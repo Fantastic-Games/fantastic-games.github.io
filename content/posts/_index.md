@@ -1,8 +1,5 @@
 ---
-title: "AHHHHHHHHHHHH"
-description: "Development Logs"
+title: "Development Logs"
+description: "Check back in for more updates!"
 layout: "posts"
 ---
-
-
-some stuff
