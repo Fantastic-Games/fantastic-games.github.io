@@ -19,7 +19,7 @@ html {
   --bg-deep: #1c1c1c; /* Deep Midnight Blue */
   --accent-primary: #D4AF37; /* Primary Purple */
   --accent-mid-purple: #c485f6; /* Mid Purple */
-  --accent-light-purple: #dbabff; /* Light Purple */
+  --accent-light-purple: #f5ca3f; /* Changed to light gold TODO: change var name */
   --accent-secondary: #00ffff; /* Cyber Cyan */
   --glass-surface: rgba(255, 255, 255, 0.05);
   --glass-border: rgba(255, 255, 255, 0.1);
