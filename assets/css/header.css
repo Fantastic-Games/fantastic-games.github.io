@@ -13,7 +13,7 @@
 }
 
 [data-theme="light"] .sticky-header {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: var(--lt-accent-light-secondary-silver);
 }
 
 .header-container {
@@ -90,6 +90,10 @@
 .menu-link:hover {
   color: var(--accent-primary);
   background-color: var(--bg-secondary);
+}
+
+[data-theme="light"] .menu-link:hover {
+  background-color: var(--lt-accent-light-primary-gold);
 }
 
 .menu-link.active {
