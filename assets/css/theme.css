@@ -15,11 +15,23 @@ html {
 }
 
 :root {
+  /* Art Deco Palette (dark mode) */
+  --bg-grey: #1c1c1c;
+  --bg-dark-grey: #1a1a1a;
+  --accent-primary-gold: #D4AF37;
+  --accent-mid-primary-gold: #e6bf42;
+  --accent-light-primary-gold: #ffdb63;
+  --accent-secondary-silver: #a7a7a7;
+  --accent-mid-secondary-silver: #c0c0c0;
+  --accent-light-secondary-silver: #dadada;
+
+  --primary-color: var(--accent-light-primary-gold);
+
   /* Nebula Glass Color Palette */
-  --bg-deep: #1c1c1c; /* Deep Midnight Blue */
-  --accent-primary: #D4AF37; /* Primary Purple */
-  --accent-mid-purple: #c485f6; /* Mid Purple */
-  --accent-light-purple: #f5ca3f; /* Changed to light gold TODO: change var name */
+  --bg-deep: var(--bg-grey); 
+  --accent-primary: var(--accent-primary-gold); 
+  --accent-mid-purple: var(--accent-mid-primary-gold); 
+  --accent-light-purple: var(--accent-light-primary-gold);
   --accent-secondary: #00ffff; /* Cyber Cyan */
   --glass-surface: rgba(255, 255, 255, 0.05);
   --glass-border: rgba(255, 255, 255, 0.1);
@@ -35,7 +47,7 @@ html {
   --accent-hover: #c485f6;
   --border-color: var(--glass-border);
   /* Dark theme rgba values for effects */
-  --accent-primary-rgba-03: #D4AF37;
+  --accent-primary-rgba-03: var(--accent-primary-gold);
   --accent-primary-rgba-05: rgba(176, 99, 224, 0.5);
   --accent-light-purple-rgba-01: rgba(219, 171, 255, 0.1);
   --accent-light-purple-rgba-03: rgba(219, 171, 255, 0.3);
