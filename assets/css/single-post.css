@@ -132,7 +132,6 @@
   content: "";
   position: absolute;
   inset: 0;
-  background-color: var(--bg-secondary);
   border-radius: 0.5rem;
   pointer-events: none;
   z-index: 1;
@@ -141,8 +140,8 @@
 [data-theme="light"] .post-toc {
   background-image: radial-gradient(
     circle at center,
-    rgba(196, 133, 246, 0.2) 0%,
-    rgba(243, 232, 255, 0.4) 40%,
+    rgba(95, 95, 95, 0.2) 0%,
+    rgba(211, 211, 211, 0.4) 40%,
     #ffffff 100%
   );
 }
