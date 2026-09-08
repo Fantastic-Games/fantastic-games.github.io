@@ -29,7 +29,7 @@ theme = "mana"
     weight = 40 
 
 [params]
-  description = "We make games we want to play"
+  description = " We make games we want to play"
   footerText = "Built with love in Hugo and Mana theme"  # Optional
 
   # Hero section title (optional - defaults to site.Title)

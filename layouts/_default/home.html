@@ -15,7 +15,7 @@
             {{ end }}
           </h1>
           {{ if site.Params.description }}
-            <p class="hero-subtitle">&gt; {{ site.Params.description }}</p>
+            <p class="hero-subtitle">{{ partial "typewriter.html" . }}</p>
           {{ else if .Description }}
             <p class="hero-subtitle">&gt; {{ .Description }}</p>
           {{ end }}
