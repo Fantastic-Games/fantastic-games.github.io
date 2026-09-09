@@ -1,5 +1,10 @@
 /* About Page */
 
+.about-content-full img {
+  padding-top: 4em;
+  width: 50%;
+}
+
 .about-page {
   max-width: 900px;
   margin: 0 auto;
@@ -49,7 +54,7 @@
 }
 
 .about-content-full h1 {
-  padding-top: 2.5em;
+  
 }
 
 .about-content-full h2 {
