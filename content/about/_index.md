@@ -1,6 +1,6 @@
 ---
 title: "About"
-description: "testing!"
+description: "Learn about the minds behind Fantastic Games!"
 layout: "about"
 ---
 
