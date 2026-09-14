@@ -7,7 +7,7 @@
     const characterLimit30 = CHAOS.filter((phrase) => phrase.length < 30);
 
     const typewriter = document.getElementById("typewriter");
-    typewriter.addEventListener("animationiteration", () => {
+    typewriter.addEventListener("animationstart", () => {
         console.log("animation looping again");
         document.getElementById("typewriter").innerHTML = randomizeText();
     });
