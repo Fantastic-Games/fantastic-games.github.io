@@ -7,8 +7,9 @@
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   max-width: max-content;
   animation: 
-    4s typing 0s steps(50, end),
-    blink-caret .5s step-end infinite;
+    8s typing-deleting 0s 1 steps(50, end),
+    2s typing 8s 1 steps(50, end);
+    /* blink-caret .5s step-end infinite; */
 }
 
 /* The typing effect */
@@ -17,15 +18,15 @@
     to { width: 100% }
 }
 
-@keyframes blink-caret {
+/* @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange }
-}
+} */
 
 
 /* Typing and deleting */
-/* @keyframes typing {
+@keyframes typing-deleting {
   0% { width: 0 }
   30%, 70% { width: 100% }
   80%, 100% { width: 0 }
-} */
+} 
