@@ -15,8 +15,8 @@
   max-width: max-content;
   animation: 
     8s typing-deleting 0s 1 steps(50, end),
-    2s typing 8s 1 steps(50, end);
-    /* blink-caret .5s step-end infinite; */
+    2s typing 8s 1 steps(50, end),
+    .8s blink-caret 10s step-end infinite;
 } 
 
 
@@ -26,10 +26,10 @@
     to { width: 100% }
 }
 
-/* @keyframes blink-caret {
+@keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange }
-} */
+}
 
 
 /* Typing and deleting */
