@@ -1,12 +1,17 @@
 
 @media (max-width: 600px){
   .typewriter h1 {
-    font-size: 1.5em;
+    font-size: 1em;
   } 
 }
 
+@media (min-width: 601px) {
+  .typewriter h1 {
+    float: left;
+  }
+}
+
 .typewriter h1 {
-  float: left;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   font-family: monospace;
   border-right: .15em solid orange; /* The typwriter cursor */
