@@ -1,3 +1,10 @@
+
+@media (max-width: 600px){
+  .typewriter h1 {
+    font-size: 1.5em;
+  } 
+}
+
 .typewriter h1 {
   float: left;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -10,7 +17,8 @@
     8s typing-deleting 0s 1 steps(50, end),
     2s typing 8s 1 steps(50, end);
     /* blink-caret .5s step-end infinite; */
-}
+} 
+
 
 /* The typing effect */
 @keyframes typing {
