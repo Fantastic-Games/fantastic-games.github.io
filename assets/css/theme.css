@@ -201,3 +201,8 @@ body > * {
   position: relative;
   z-index: 1;
 }
+@media (min-width: 768px){
+  .hero-social > .social-links {
+    float: left;
+  }
+}
