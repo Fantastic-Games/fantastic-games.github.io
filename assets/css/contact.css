@@ -1,0 +1,31 @@
+.contact-content {
+    text-align: center; 
+    padding-top: 5em;
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: var(--text-primary);
+}
+
+.contact-content img {
+    width: 25%;
+}
+.contact-content h2 {
+    font-size: 1.75rem;
+    margin-top: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+    color: var(--text-primary);
+}
+
+.contact-content p {
+    padding-top: 3em;
+    margin-bottom: var(--spacing-md);
+}
+
+.contact-content a {
+    color: var(--accent-primary);
+    text-decoration: underline;
+}
+
+.contact-content a:hover {
+    color: var(--accent-hover);
+}

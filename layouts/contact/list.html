@@ -1,5 +1,11 @@
 {{ define "main" }}
-
-NOTHING HERE YET
-
+    <div class="contact-content">
+        <div class="hero-image">
+            <img
+                src="{{ site.Params.heroImg }}"
+                alt="{{ site.Title }}"
+                class="hero-logo">
+        </div>
+        {{ .Content }}
+    </div>
 {{ end }}
