@@ -101,6 +101,19 @@
   background-color: var(--bg-secondary);
 }
 
+.sub-menu {
+  display: none;
+  position: absolute;
+  padding: 1em;
+  margin-top:.25em;
+  background-color: var(--bg-dark-grey);
+  border-radius: 10px;
+}
+
+.menu-item:hover .sub-menu{
+  display: block;
+}
+
 .search-toggle {
   background: none;
   border: none;

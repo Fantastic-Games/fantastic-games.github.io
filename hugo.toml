@@ -28,6 +28,17 @@ theme = "mana"
     url = "contact"
     weight = 40 
 
+  [[menus.main]]
+    identifier = "games"
+    name = "Our Games"
+    url = "projects"
+
+  [[menus.main]]
+    identifier = "tba"
+    name = "TBA"
+    parent = "games"
+    url = "projects/tba"
+
 [params]
   description = " We make games we want to play"
   footerText = "Built with love in Hugo and Mana theme"  # Optional
