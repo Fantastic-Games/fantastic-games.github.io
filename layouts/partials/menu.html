@@ -1,12 +1,11 @@
 <ul class="menu-list">
     {{ range site.Menus.main }}
         <li class="menu-item">
-            <a
-                href="{{ .URL | relLangURL }}"
-                class="menu-link {{ if $.IsMenuCurrent "main" . }}active{{ end }}">
-                {{ .Name }} {{ if .HasChildren }} <span class="drop-icon" for="{{ .Name }}">▾</span> {{ end }}
-            </a>
             {{ if .HasChildren }}
+                <a
+                    class="menu-link has-children {{ if $.IsMenuCurrent "main" . }}active{{ end }}">
+                    {{ .Name }} <span class="drop-icon" for="{{ .Name }}">▾</span> 
+                </a>
                <ul class="sub-menu">
                     {{ range .Children }}
                     <a 
@@ -16,6 +15,12 @@
                     </a>
                     {{ end }}
                 </ul>
+            {{ else }}
+            <a
+                href="{{ .URL | relLangURL }}"
+                class="menu-link {{ if $.IsMenuCurrent "main" . }}active{{ end }}">
+                {{ .Name }} 
+            </a>
             {{ end }}
         </li>
     {{ end }}
