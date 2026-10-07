@@ -1,5 +1,7 @@
 ---
 title: "TBA"
-image: "/tba.png"
 layout: "projects"
 ---
+
+
+s00n
