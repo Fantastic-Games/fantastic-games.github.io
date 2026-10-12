@@ -76,3 +76,7 @@
 .about-content-full a:hover {
   color: var(--accent-hover);
 }
+
+.about-statement {
+  padding-bottom: 2em;
+}

@@ -49,6 +49,9 @@ theme = "mana"
 
   heroImg = '/FantasticLogoTransparent.webp'
 
+  missionStatement = "We are a team dedicated to making games WE would want to play, to express our own ideas and stories through the interactive medium of video games. We will never pursue a project for the sake of profitability, and we will never develop a project we do not want to make."
+  antiAIStatement = "We at Fantastic Games are strongly against the usage of generative AI. We will NOT condone the usage of generative AI in ANY level of development. We pride ourselves that our work is 100% human made and will not take away the natural creativity this team has. "
+
   [params.favicons]
     png = '/favicon/favicon.ico'
 

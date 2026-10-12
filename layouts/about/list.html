@@ -36,6 +36,30 @@
     </header>
 
     <div class="about-content-full">
+      <div class="about-header">
+        <div class="about-statement">
+            <h1 class="about-page-name">
+              <span class="list-title">Mission Statement</span>
+            </h1>
+            {{ if site.Params.missionStatement }}
+              <p class="about-page-description about-statement" style="font-style:normal;">{{ site.Params.missionStatement }}</p>
+            {{ end }}
+        </div>
+
+        <div class="about-statement">
+          <h1 class="about-page-name">
+            <span class="list-title">Our Stance on Generative AI</span>
+          </h1>
+          {{ if site.Params.antiAIStatement }}
+            <p class="about-page-description" style="font-style:normal;">{{ site.Params.antiAIStatement }}</p>
+          {{ end }}
+        </div>
+      </div>
+
+      <h1 class="about-page-name">
+        <span class="list-title">Meet the Team</span>
+      </h1>
+
       {{ .Content }}
     </div>
   </article>
