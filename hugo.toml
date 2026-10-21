@@ -37,7 +37,7 @@ theme = "mana"
     identifier = "tba"
     name = "TBA"
     parent = "games"
-    url = "projects/tba"
+    url = "tba"
 
 [params]
   description = " We make games we want to play"
