@@ -18,8 +18,16 @@
     </div>
 </div>
 
-<div id="teaser-gif">
-    {{ .Content }}
+<!-- <div id="teaser-gif">
+    {{ partial "post-image-single.html" . }}
+</div> -->
+<div class="post-image-single">
+    <img id="teaser-gif" src="/larger_teaser.gif">
+</div>
+
+
+<div>
+        {{ .Content }}
 </div>
 
 <script>
