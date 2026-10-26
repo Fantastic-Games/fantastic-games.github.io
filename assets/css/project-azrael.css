@@ -1,4 +1,16 @@
 #audio-icon {
-    float: right;
     cursor: pointer;
+    padding-bottom: 3em;
+}
+
+#teaser-gif {
+    text-align:center;
+}
+
+#teaser-gif img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 0.375rem;
 }

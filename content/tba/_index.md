@@ -1,4 +1,5 @@
 ---
 title: "TBA"
-image: "/larger_teaser.gif"
 ---
+
+!["teaser](/larger_teaser.gif)
