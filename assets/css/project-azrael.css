@@ -1,8 +1,33 @@
 #audio-icon {
-    cursor: pointer;
-    padding-bottom: 3em;
+  cursor: pointer;
+  padding: 3em;
+}
+
+/* Override default theme values */
+main:has(#teaser-gif) { 
+  max-width: 100%;
+  padding: 0;
 }
 
 #teaser-gif {
-  max-width: 100%;
+  max-width: 100%; 
 } 
+
+.post-image-single {
+  margin: 0;
+}
+
+
+/** For mobile */
+@media (max-width: 767px) {
+  .desktop {
+    display: none;
+  }
+}
+
+/** For desktop */
+@media (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+}
